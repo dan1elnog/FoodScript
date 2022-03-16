@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FoodScript</title>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1 class="div_title">FoodScript</h1>
+            <p class="div_subtitle">Monte seu pedido agora mesmo!</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2 class="title">Primeiro escolha o seu prato:</h2>
+            <div id="product1" class="product" onclick="order1()">
+                <img src="https://st2.depositphotos.com/4687049/6972/i/950/depositphotos_69724631-stock-photo-dish-with-meat-rice-and.jpg" alt="Prato de carne com arroz">
+                <h4>Prato simples:</h4>
+                <p>Arroz, batata, carne</p>
+                <p><strong>$20,00</strong></p>
+            </div>
+            <div id="product2" class="product" onclick="order2()">
+                <img src="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/01/03/lasanha-arroz-bolonhesa-1-768x512.jpg" alt="Lasanha">
+                <h4>Lasanha:</h4>
+                <p>Lasanha com arroz</p>
+                <p><strong>$25,00</strong></p>
+            </div>
+            <div id="product3" class="product" onclick="order3()">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8cDAmkyzIpoPJpOnT7c2gzTmX3gqwfHDwLA&usqp=CAU" alt="churrasco">
+                <h4>Churrasco (Grande variedade)</h4>
+                <p>Churrasco (boi, frango ou porco)</p>
+                <p><strong>$22,50</strong></p>
+            </div>
+            <div id="product4" class="product" onclick="order4()">
+                <img src="https://i1.wp.com/www.culinariafrequente.com.br/wp-content/uploads/2018/06/Peixe-Assado.png?fit=900%2C536&ssl=1" alt="Peixe">
+                <h4>Peixes</h4>
+                <p>Peixe assado (diversas opções)</p>
+                <p><strong>$19,99</strong></p>
+            </div>
+            <h2 class="title">Agora escolha uma bebida:</h2>
+            <div id="drink1" class="product" onclick="drink1()">
+                <img src="http://i.mlcdn.com.br/portaldalu/fotosconteudo/43225.jpg" alt="refrigerante">
+                <h4>Refrigerante</h4>
+                <p>Coca-cola, Guaraná, Fanta, Del Rey, Guarapan</p>
+                <p><strong>$7,00</strong></p>
+            </div>
+            <div id="drink2" class="product" onclick="drink2()">
+                <img src="https://img.elo7.com.br/product/zoom/263A892/adesivo-decorativo-parede-frutas-e-sucos-natural-saude-painel-saude.jpg" alt="Suco">
+                <h4>Suco Natural</h4>
+                <p>Laranja, uva, maracujá e morango</p>
+                <p><strong>$6,50</strong></p>
+            </div>
+            <div id="drink3" class="product" onclick="drink3()">
+                <img src="https://www.clubedomalte.com.br/blog/wp-content/uploads/2019/07/chopp-e-cerveja.jpg" alt="Cerveja">
+                <h4>Cerveja</h4>
+                <p>Brahma, Skol, Heineken, Budweiser, Corona</p>
+                <p><strong>$10,00</strong></p>
+            </div>
+            <h2 class="title">Para adoçar o seu pedido:</h2>
+            <div id="dessert1" class="product" onclick="(dessert1())">
+                <img src="https://revistamenu.com.br/wp-content/uploads/2021/06/chocolatepeso.jpg" alt="Chocolate">
+                <h4>Chocolate</h4>
+                <p>Barras de 120g</p>
+                <p><strong>$4,99</strong></p>
+            </div>
+            <div id="dessert2" class="product" onclick="(dessert2())">
+                <img src="https://images.aws.nestle.recipes/resized/79141a1d270c14d28976f25e17f93205_sorevete-brigadeiro-moca-receitas-nestle_1200_600.jpg" alt="Sorvete">
+                <h4>Sorvete(diversos sabores))</h4>
+                <p>Chocolate, Baunilha, Morango, Coco, Ice Blue</p>
+                <p><strong>$10,00</strong></p>
+            </div>
+            <div id="dessert3" class="product" onclick="(dessert3())">
+                <img src="https://guiadoestrangeiro.com/wp-content/uploads/2015/02/petit_gateau.jpg" alt="Petit Gateau">
+                <h4>Petit Gateau</h4>
+                <p>Imperdível</p>
+                <p><strong>$15,00</strong></p>
+            </div>
+            <div id="dessert4" class="product" onclick="(dessert4())">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-HbX-TLEMsklNphpeMMuQxBpDgHvAXXBIA&usqp=CAU" alt="Açaí">
+                <h4>Açaí</h4>
+                <p>Leite em Pó, Leite Condensado, Granulado e Banana</p>
+                <p><strong>$16,00</strong></p>
+            </div>
+            <div class="button">
+                <button class="teste" onclick="finish()" type="submit">Finalizar pedido</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js "></script>
+</body>
+
+</html>
